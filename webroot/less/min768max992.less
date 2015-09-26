@@ -1,0 +1,50 @@
+
+@media (min-width: 768px) {
+  .banner{
+    .navContainer{ float: right}
+  }
+
+  .contact{
+    form{
+      .contactMobile{ display: none}
+    }
+  }
+
+}
+
+
+@media(max-width: 1218px) {
+}
+
+@media (min-width: 1008px) and (max-width: 1218px) {
+
+}
+@media (min-width: 800px)  {
+  .wrapper{
+    .banner{
+      .logo{ float: left}
+      nav{
+        float: right;
+      }
+      .flexnav{
+        li{
+          .active{ background-color: #5f1f60 !important;}
+
+          a{background-color: transparent; border-left: none; padding-left: 20px;padding-right: 20px}
+          ul{
+            li{ width: 200px; background: #5f1f60; color: white; border-bottom: 1px solid #aa5dab;
+              &:last-child{ border-bottom: none}
+              .touch-button{ background: none; top:-5px; width: auto; padding-right: 10px;
+                .navicon{ color:white }
+              }
+              a{color: white; padding: 10px; }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+

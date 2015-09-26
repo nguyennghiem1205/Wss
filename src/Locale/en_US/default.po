@@ -1,0 +1,1896 @@
+msgid "signup"
+msgstr "Sign up"
+msgid "login"
+msgstr "Login"
+msgid "email"
+msgstr "Email"
+msgid "password"
+msgstr "Password"
+msgid "forgot your password"
+msgstr "Forgot your password?"
+msgid "login with facebook"
+msgstr "Login with Facebook"
+msgid "create a free account"
+msgstr "Create a free account"
+msgid "first name"
+msgstr "First name"
+msgid "last name"
+msgstr "Last name"
+msgid "create new account"
+msgstr "CREATE NEW ACCOUNT"
+msgid "teams of use"
+msgstr "Teams of Use"
+msgid "privacy policy"
+msgstr "Privacy Policy"
+msgid "already have an account"
+msgstr "Already have an account?"
+msgid "signin"
+msgstr "Sign in"
+msgid "send a link to reset your password"
+msgstr "Send a link to reset your password?"
+msgid "send password"
+msgstr "Send password"
+msgid "try to "
+msgstr "Try to"
+msgid "new password"
+msgstr "New password"
+msgid "confirm password"
+msgstr "Confirm password"
+msgid "change password"
+msgstr "Change password"
+msgid "your account has been blocked"
+msgstr "Your account has been blocked"
+msgid "invalid email or password"
+msgstr "Invalid email or password"
+msgid "please check email to reset your password"
+msgstr "Please check email to reset your password"
+msgid "email is not exist in the system"
+msgstr "Email is not exist in the system"
+msgid "reset password link is invalid"
+msgstr "Reset password link is invalid"
+msgid "invalid user authentication"
+msgstr "Invalid user authentication"
+msgid "email is already exist"
+msgstr "Email is already exist"
+msgid "warning this will reset your pages"
+msgstr "Warning! this will reset your pages."
+msgid "my profile"
+msgstr "My profile"
+msgid "first"
+msgstr "First"
+msgid "prev"
+msgstr "Prev"
+msgid "next"
+msgstr "Next"
+msgid "last"
+msgstr "Last"
+msgid "add new"
+msgstr "Add new"
+msgid "delete selected"
+msgstr "Delete selected"
+msgid "back to translate"
+msgstr ""
+msgid "save data"
+msgstr "Save data"
+msgid "view"
+msgstr "View"
+msgid "edit"
+msgstr "Edit"
+msgid "collapse menu"
+msgstr "Collapse menu"
+msgid "setting"
+msgstr "Setting"
+msgid "profile"
+msgstr "Profile"
+msgid "shortcut"
+msgstr "Shortcut"
+msgid "full screen"
+msgstr "Full screen"
+msgid "logout"
+msgstr "Logout"
+msgid "signout"
+msgstr "Sign out"
+msgid "you can improve your security further after logging out by closing this opened browser"
+msgstr "You can improve your security further after logging out by closing this opened browser"
+msgid "power by hiworld jsc"
+msgstr "Power by hiworld JSC"
+msgid "system"
+msgstr "System"
+msgid "list of static pages"
+msgstr "List of static pages"
+msgid "filter title"
+msgstr "Filter title"
+msgid "title"
+msgstr "Title"
+msgid "actions"
+msgstr "Actions"
+msgid "delete"
+msgstr "Delete"
+msgid "submit"
+msgstr "Submit"
+msgid "cancel"
+msgstr "Cancel"
+msgid "list of users"
+msgstr "List of users"
+msgid "user edit"
+msgstr "User edit"
+msgid "user add"
+msgstr "User add"
+msgid "status"
+msgstr "Status"
+msgid "id"
+msgstr "ID"
+msgid "name"
+msgstr "Name"
+msgid "group"
+msgstr "Group"
+msgid "action"
+msgstr "Action"
+msgid "edit profile"
+msgstr "Edit profile"
+msgid "avatar"
+msgstr "Avatar"
+msgid "created"
+msgstr "Created"
+msgid "edit static page"
+msgstr "Edit static page"
+msgid "content"
+msgstr "Content"
+msgid "back"
+msgstr "Back"
+msgid "the user has been saved"
+msgstr "The user has been saved"
+msgid "the user could not be saved"
+msgstr "The user could not be saved"
+msgid "the user has been deleted"
+msgstr "The user has been deleted"
+msgid "the user could not be deleted"
+msgstr "The user could not be deleted"
+msgid "the current password incorrect"
+msgstr "The current password incorrect"
+msgid "the password has been changed"
+msgstr "The password has been changed"
+msgid "the password could not be changed"
+msgstr "The password could not be changed"
+msgid "this page does not exist"
+msgstr "This page does not exist"
+msgid "view static page"
+msgstr "View static page"
+msgid "the page has been saved"
+msgstr "The page has been saved"
+msgid "the page could not be saved"
+msgstr "The page could not be saved"
+msgid "settings"
+msgstr "Settings"
+msgid "update settings"
+msgstr "Update settings"
+msgid "the setting has been saved"
+msgstr "The setting has been saved"
+msgid "the setting could not be saved"
+msgstr "The setting could not be saved"
+msgid "menu"
+msgstr "Menu"
+msgid "other"
+msgstr "Other"
+msgid "list of cakephp global constant"
+msgstr "List of cakephp global constant"
+msgid "list of cakephp global configuration"
+msgstr "List of cakephp global configuration"
+msgid "user group"
+msgstr "User group"
+msgid "plugins"
+msgstr "Plugins"
+msgid "save"
+msgstr "Save"
+msgid "account"
+msgstr "Account"
+msgid "list of the menus"
+msgstr "List of the menus"
+msgid "menu add"
+msgstr "Menu add"
+msgid "parent"
+msgstr "Parent"
+msgid "icon"
+msgstr "Icon"
+msgid "plugin"
+msgstr "Plugin"
+msgid "select plugin"
+msgstr "Select plugin"
+msgid "controller"
+msgstr "Controller"
+msgid "display"
+msgstr "Display"
+msgid "data is empty"
+msgstr "Data is empty"
+msgid "sort"
+msgstr "Sort"
+msgid "menu edit"
+msgstr "Menu edit"
+msgid "template"
+msgstr "Template"
+msgid "manage email template"
+msgstr "Manage email template"
+msgid "subject"
+msgstr "Subject"
+msgid "language"
+msgstr "Language"
+msgid "server management"
+msgstr "Server management"
+msgid "add new key to server"
+msgstr "Add new key to server"
+msgid "list of the language"
+msgstr "List of the language"
+msgid "local"
+msgstr "Local"
+msgid "server"
+msgstr "Server"
+msgid "new key"
+msgstr "New key"
+msgid "add new key"
+msgstr "Add new key"
+msgid "key"
+msgstr "Key"
+msgid "english"
+msgstr "English"
+msgid "vietnamese"
+msgstr "Vietnamese"
+msgid "japanese"
+msgstr "Japanese"
+msgid "pull from server"
+msgstr "Pull from server"
+msgid "push to server"
+msgstr "Push to server"
+msgid "export"
+msgstr "Export"
+msgid "generate new key"
+msgstr "Generate new key"
+msgid "import"
+msgstr "Import"
+msgid "the email template has been saved"
+msgstr "The email template has been saved"
+msgid "the email template could not be saved"
+msgstr "The email template could not be saved"
+msgid "the menu has been saved"
+msgstr "The menu has been saved"
+msgid "the menu could not be saved"
+msgstr "The menu could not be saved"
+msgid "the menu has been deleted"
+msgstr "The menu has been deleted"
+msgid "the menu could not be deleted"
+msgstr "The menu could not be deleted"
+msgid "parent has been sorted successfully"
+msgstr "Parent has been sorted successfully"
+msgid "the language has been saved"
+msgstr "The language has been saved"
+msgid "the language could not be saved"
+msgstr "The language could not be saved"
+msgid "the key has been saved"
+msgstr "The key has been saved"
+msgid "the key could not be saved"
+msgstr "The key could not be saved"
+msgid "user is invalid"
+msgstr "User is invalid"
+msgid "the key has been deleted"
+msgstr "The key could not be saved"
+msgid "the key could not be deleted"
+msgstr "The key could not be deleted"
+msgid "the language has been deleted"
+msgstr "The language has been deleted"
+msgid "the language could not be deleted"
+msgstr "The language could not be deleted"
+msgid "the key has been merged"
+msgstr "The key has been merged"
+msgid "the key could not be merged"
+msgstr "The key could not be merged"
+msgid "update successfully"
+msgstr "Update successfully"
+msgid "the actions has been saved"
+msgstr "The actions has been saved"
+msgid "the actions could not be saved"
+msgstr "The actions could not be saved"
+msgid "this email exist in the system and cannot be using facebook"
+msgstr "This email exist in the system and cannot be using Facebook"
+msgid "cannot create member account"
+msgstr "Cannot create member account"
+msgid "female"
+msgstr "Female"
+msgid "male"
+msgstr "Male"
+msgid "group admin"
+msgstr "Group admin"
+msgid "group member"
+msgstr "Group member"
+msgid "true"
+msgstr "True"
+msgid "false"
+msgstr "False"
+msgid "terms of use"
+msgstr "Terms of use"
+msgid "forgot password"
+msgstr "Forgot password"
+msgid "this file is require"
+msgstr "This file is require"
+msgid "file size exceeds allowable"
+msgstr "File size exceeds allowable"
+msgid "this file is not valid"
+msgstr "This file is not valid"
+msgid "old password"
+msgstr "Old password"
+msgid "password confirm"
+msgstr "Password confirm"
+
+msgid "lang"
+msgstr "eng"
+
+
+#: Controller/PagesController.php:126
+msgid "Có <span>{0}</span> kết quả với từ khóa \"{1}\""
+msgstr "<span>{0}</span> results with this key word \"{1}\""
+
+#: Controller/PagesController.php:158
+msgid "Gửi liên hệ thành công. Chúc tôi sẽ liên lạc lại trong thời gian sớm nhất!"
+msgstr "Subscribe successfully. We will contact you soon."
+
+#: Controller/PagesController.php:161
+msgid "Không thể gửi liên hệ. Vui lòng thử lại!"
+msgstr "Subscribe failed. Please try again."
+
+#: Controller/PagesController.php:188
+msgid "Subscribe success!"
+msgstr ""
+
+#: Controller/PagesController.php:191
+msgid "Subscribe unsuccessful. This email is already in use"
+msgstr ""
+
+#: Controller/PostsController.php:65;90
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:68;93
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:112
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/PostsController.php:114
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:31
+msgid "welcome "
+msgstr "Welcome"
+
+#: Controller/UsersController.php:35;107
+msgid "your account has been blocked"
+msgstr "Your account has been blocked"
+
+#: Controller/UsersController.php:113
+msgid "invalid email or password"
+msgstr "Invalid email or password"
+
+#: Controller/UsersController.php:143
+msgid "please check email to reset your password"
+msgstr "Please check email to reset your password"
+
+#: Controller/UsersController.php:149
+msgid "email is not exist in the system"
+msgstr "Email is not exist in the system"
+
+#: Controller/UsersController.php:162
+msgid "reset password link is invalid"
+msgstr "Reset password link is invalid"
+
+#: Model/Table/UsersTable.php:107
+msgid "email is already exist"
+msgstr "Email is already exist"
+
+#: Template/Element/popup.ctp:1;39
+msgid "signup"
+msgstr "Signup"
+
+#: Template/Element/popup.ctp:7;23
+msgid "login"
+msgstr "Login"
+
+#: Template/Element/popup.ctp:12;44;69
+msgid "email"
+msgstr "Email"
+
+#: Template/Element/popup.ctp:16;45
+msgid "password"
+msgstr "Password"
+
+#: Template/Element/popup.ctp:18
+msgid "forgot your password"
+msgstr "Forgot your password"
+
+#: Template/Element/popup.ctp:29;54
+msgid "login with facebook"
+msgstr "Login with facebook"
+
+#: Template/Element/popup.ctp:33;79
+msgid "dont have an account"
+msgstr "Dont have an account"
+
+#: Template/Element/popup.ctp:33;79
+msgid "create a free account"
+msgstr "Create a free account"
+
+#: Template/Element/popup.ctp:42
+msgid "first name"
+msgstr "First name"
+
+#: Template/Element/popup.ctp:43
+msgid "last name"
+msgstr "Last name"
+
+#: Template/Element/popup.ctp:48
+msgid "create new account"
+msgstr "Create new account"
+
+#: Template/Element/popup.ctp:49
+msgid "teams of use"
+msgstr "Teams of use"
+
+#: Template/Element/popup.ctp:49
+msgid "privacy policy"
+msgstr "Privacy policy"
+
+#: Template/Element/popup.ctp:59
+msgid "already have an account"
+msgstr "Already have an account"
+
+#: Template/Element/popup.ctp:59;77
+msgid "signin"
+msgstr "Sign in"
+
+#: Template/Element/popup.ctp:65
+msgid "send a link to reset your password"
+msgstr "Send a link to reset your password"
+
+#: Template/Element/popup.ctp:72
+msgid "send password"
+msgstr "Send password"
+
+#: Template/Element/popup.ctp:77
+msgid "try to "
+msgstr ""
+
+#: Template/Pages/contact.ctp:23;60
+msgid "Contact with us"
+msgstr ""
+
+#: Template/Pages/contact.ctp:24;61
+msgid "Please insert content on my form."
+msgstr ""
+
+#: Template/Pages/contact.ctp:33;66
+msgid "Name"
+msgstr ""
+
+#: Template/Pages/contact.ctp:37;72
+msgid "Email"
+msgstr ""
+
+#: Template/Pages/contact.ctp:41;78
+msgid "Phone"
+msgstr ""
+
+#: Template/Pages/contact.ctp:45;84
+msgid "Content"
+msgstr ""
+
+#: Template/Pages/contact.ctp:100
+msgid "Hãy liên hệ với WSS"
+msgstr "Contact with WSS"
+
+#: Template/Pages/contact.ctp:107
+msgid "Address"
+msgstr ""
+
+#: Template/Pages/contact.ctp:108
+msgid "Tel"
+msgstr ""
+
+#: Template/Pages/contact.ctp:109
+msgid "Fax"
+msgstr ""
+
+#: Template/Pages/contact.ctp:117
+msgid "Đặt lệnh"
+msgstr ""
+
+#: Template/Pages/contact.ctp:119
+msgid "Chăm sóc khách hàng"
+msgstr "Customer Service"
+
+#: Template/Pages/index.ctp:32
+msgid "Join with us"
+msgstr ""
+
+#: Template/Pages/index.ctp:33
+msgid "Join now or never"
+msgstr ""
+
+#: Template/Pages/index.ctp:36
+msgid "Online trading"
+msgstr ""
+
+#: Template/Pages/index.ctp:47
+msgid "Tin tức"
+msgstr ""
+
+#: Template/Pages/index.ctp:71
+msgid "News"
+msgstr ""
+
+#: Template/Pages/index.ctp:294
+msgid "Please joint with our, you with have best services, best safe and best invest"
+msgstr ""
+
+#: Template/Pages/index.ctp:298
+msgid "Go to Guide"
+msgstr ""
+
+#: Template/Pages/index.ctp:309
+msgid "Services"
+msgstr ""
+
+#: Template/Pages/index.ctp:340
+msgid "Mobility"
+msgstr ""
+
+#: Template/Pages/index.ctp:354
+msgid "Clients"
+msgstr ""
+
+#: Template/Pages/recruitment.ctp:20
+msgid "Tuyển dụng"
+msgstr ""
+
+#: Template/Pages/recruitment.ctp:34
+msgid "Recent"
+msgstr ""
+
+#: Template/Pages/recruitment.ctp:48
+msgid "WSS hiện đang tuyển các vị trí sau"
+msgstr ""
+
+#: Template/Pages/recruitment.ctp:51
+msgid "people"
+msgstr ""
+
+#: Template/Pages/search.ctp:15
+msgid "Results"
+msgstr ""
+
+#: Template/Pages/search.ctp:33
+msgid "Read more"
+msgstr ""
+
+#: Template/Posts/add.ctp:2
+#: Template/Posts/edit.ctp:2
+#: Template/Posts/index.ctp:2;16
+#: Template/Posts/view.ctp:2
+msgid "Actions"
+msgstr ""
+
+#: Template/Posts/add.ctp:4
+#: Template/Posts/edit.ctp:10
+#: Template/Posts/view.ctp:6
+msgid "List Posts"
+msgstr ""
+
+#: Template/Posts/add.ctp:10
+msgid "Add Post"
+msgstr ""
+
+#: Template/Posts/add.ctp:19
+#: Template/Posts/edit.ctp:25
+msgid "Submit"
+msgstr ""
+
+#: Template/Posts/edit.ctp:5
+#: Template/Posts/index.ctp:37
+msgid "Delete"
+msgstr ""
+
+#: Template/Posts/edit.ctp:7
+#: Template/Posts/index.ctp:37
+#: Template/Posts/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Posts/edit.ctp:16
+#: Template/Posts/view.ctp:4
+msgid "Edit Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:4
+#: Template/Posts/view.ctp:7
+msgid "New Post"
+msgstr ""
+
+#: Template/Posts/index.ctp:35
+msgid "View"
+msgstr ""
+
+#: Template/Posts/index.ctp:36
+msgid "Edit"
+msgstr ""
+
+#: Template/Posts/index.ctp:46
+msgid "previous"
+msgstr ""
+
+#: Template/Posts/index.ctp:48
+msgid "next"
+msgstr ""
+
+#: Template/Posts/view.ctp:5
+msgid "Delete Post"
+msgstr ""
+
+#: Template/Posts/view.ctp:14
+msgid "Time"
+msgstr ""
+
+#: Template/Posts/view.ctp:16
+msgid "Company Code"
+msgstr ""
+
+#: Template/Posts/view.ctp:18
+msgid "Company Name"
+msgstr ""
+
+#: Template/Posts/view.ctp:20
+msgid "Title"
+msgstr ""
+
+#: Template/Posts/view.ctp:24
+msgid "Id"
+msgstr ""
+
+#: Template/Posts/view.ctp:30
+msgid "Url"
+msgstr ""
+
+#: Template/Users/login.ctp:35
+msgid "Sign In"
+msgstr ""
+
+#: Template/Users/login.ctp:41
+msgid "E-mail"
+msgstr ""
+
+#: Template/Users/login.ctp:44
+msgid "Please enter email address/username"
+msgstr ""
+
+#: Template/Users/login.ctp:48
+msgid "Password"
+msgstr ""
+
+#: Template/Users/login.ctp:51
+msgid "Enter your password"
+msgstr ""
+
+#: Template/Users/login.ctp:60
+msgid "Stay signed in"
+msgstr ""
+
+#: Template/Users/login.ctp:66
+msgid "Sign in"
+msgstr ""
+
+#: Template/Users/reset_password.ctp:4
+msgid "new password"
+msgstr ""
+
+#: Template/Users/reset_password.ctp:8
+msgid "confirm password"
+msgstr ""
+
+#: Template/Users/reset_password.ctp:13
+msgid "change password"
+msgstr ""
+
+
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#:Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#: Controller/CategoriesController.php:45
+msgid "the category has been saved"
+msgstr "Danh mục đã được lưu"
+
+#: Controller/CategoriesController.php:50
+msgid "the category could not be saved"
+msgstr ""
+
+#: Controller/CategoriesController.php:76
+msgid "the categories has been deleted"
+msgstr ""
+
+#: Controller/CategoriesController.php:78
+msgid "the categories could not be deleted"
+msgstr ""
+
+#: Controller/CeoInfoController.php:37
+msgid "the CEO-Info has been saved"
+msgstr ""
+
+#: Controller/CeoInfoController.php:42
+msgid "the CEO-Info could not be saved"
+msgstr ""
+
+#: Controller/CeoInfoController.php:61
+msgid "the CEO-Info has been deleted"
+msgstr ""
+
+#: Controller/CeoInfoController.php:63
+msgid "the CEO-Info could not be deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:29
+msgid "the contact has been saved"
+msgstr ""
+
+#: Controller/ContactsController.php:34
+msgid "the contact could not be saved"
+msgstr ""
+
+#: Controller/ContactsController.php:53
+msgid "the contacts has been deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:55
+msgid "the contacts could not be deleted"
+msgstr ""
+
+#: Controller/FrontendMenusController.php:45
+msgid "the menu has been saved"
+msgstr ""
+
+#: Controller/FrontendMenusController.php:50
+msgid "the menu could not be saved"
+msgstr ""
+
+#: Controller/FrontendMenusController.php:88
+msgid "the menu has been deleted"
+msgstr ""
+
+#: Controller/FrontendMenusController.php:90
+msgid "the menu could not be deleted"
+msgstr ""
+
+#: Controller/MailSubsController.php:36
+msgid "Subscribe success!"
+msgstr ""
+
+#: Controller/MailSubsController.php:39
+msgid "Subscribe unsuccessful. Please, try again."
+msgstr ""
+
+#: Controller/MailSubsController.php:58
+msgid "The mail sub has been deleted."
+msgstr ""
+
+#: Controller/MailSubsController.php:60
+msgid "The mail sub could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MessagesController.php:35
+msgid "The message has been saved."
+msgstr ""
+
+#: Controller/MessagesController.php:38
+msgid "The message could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MessagesController.php:57
+msgid "The message has been deleted."
+msgstr ""
+
+#: Controller/MessagesController.php:59
+msgid "The message could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:39
+msgid "the news has been saved"
+msgstr ""
+
+#: Controller/NewsController.php:44
+msgid "the news could not be saved"
+msgstr ""
+
+#: Controller/NewsController.php:73
+#: Controller/RecruitsController.php:56
+msgid "the news has been deleted"
+msgstr ""
+
+#: Controller/NewsController.php:75
+#: Controller/RecruitsController.php:58
+msgid "the news could not be deleted"
+msgstr ""
+
+#: Controller/RecruitsController.php:31
+msgid "the recruitment news has been saved"
+msgstr ""
+
+#: Controller/RecruitsController.php:36
+msgid "the recruitment news could not be saved"
+msgstr ""
+
+#: Controller/SitesController.php:37
+msgid "the site has been saved"
+msgstr ""
+
+#: Controller/SitesController.php:42
+msgid "the site could not be saved"
+msgstr ""
+
+#: Controller/SitesController.php:62
+msgid "the site has been deleted"
+msgstr ""
+
+#: Controller/SitesController.php:64
+msgid "the site could not be deleted"
+msgstr ""
+
+#: Controller/SlidesController.php:39
+msgid "The slide has been saved."
+msgstr ""
+
+#: Controller/SlidesController.php:42
+msgid "The slide could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SlidesController.php:62
+msgid "The slide has been deleted."
+msgstr ""
+
+#: Controller/SlidesController.php:64
+msgid "The slide could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:65;117
+msgid "the user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:70;120
+msgid "the user could not be saved"
+msgstr ""
+
+#: Controller/UsersController.php:92
+msgid "the user has been deleted"
+msgstr ""
+
+#: Controller/UsersController.php:94
+msgid "the user could not be deleted"
+msgstr ""
+
+#: Controller/UsersController.php:142
+msgid "the current password incorrect"
+msgstr ""
+
+#: Controller/UsersController.php:148
+msgid "the password has been changed"
+msgstr ""
+
+#: Controller/UsersController.php:151
+msgid "the password could not be changed"
+msgstr ""
+
+#: Template/tmp_add.ctp:1;6
+#: Template/tmp_list.ctp:1;6
+#: Template/Categories/add.ctp:2;7
+#: Template/Categories/index.ctp:4;10
+#: Template/Categories/view.ctp:3;9
+#: Template/CeoInfo/add.ctp:2;7
+#: Template/CeoInfo/index.ctp:4;10
+#: Template/CeoInfo/view.ctp:3;9
+#: Template/Contacts/add.ctp:2;7
+#: Template/Contacts/index.ctp:4;10
+#: Template/Contacts/view.ctp:3;9
+#: Template/FrontendMenus/add.ctp:2;7
+#: Template/FrontendMenus/index.ctp:4;10
+#: Template/MailSubs/add.ctp:2;7
+#: Template/MailSubs/index.ctp:4;10
+#: Template/Messages/index.ctp:4;10
+#: Template/News/add.ctp:2;7
+#: Template/News/index.ctp:4;10
+#: Template/News/view.ctp:3;9
+#: Template/Recruits/add.ctp:2;7
+#: Template/Recruits/index.ctp:4;10
+#: Template/Recruits/view.ctp:3;9
+#: Template/Sites/add.ctp:2;7
+#: Template/Sites/index.ctp:4;10
+#: Template/Sites/view.ctp:3;9
+#: Template/Slides/add.ctp:2;7
+#: Template/Slides/index.ctp:4;10
+#: Template/Users/add.ctp:2;7
+#: Template/Users/change_password.ctp:6
+#: Template/Users/index.ctp:4;10
+#: Template/Users/profile.ctp:2;7
+#: Template/Users/view.ctp:3;9
+msgid "system"
+msgstr ""
+
+#: Template/tmp_add.ctp:6
+#: Template/tmp_list.ctp:6;19
+msgid "list of static pages"
+msgstr ""
+
+#: Template/tmp_add.ctp:17
+msgid "edit static page"
+msgstr ""
+
+#: Template/tmp_add.ctp:26
+#: Template/tmp_list.ctp:44
+msgid "title"
+msgstr ""
+
+#: Template/tmp_add.ctp:32
+msgid "content"
+msgstr ""
+
+#: Template/tmp_add.ctp:40
+#: Template/Bake/Element/form.ctp:92
+#: Template/Categories/add.ctp:151
+#: Template/CeoInfo/add.ctp:121
+#: Template/Contacts/add.ctp:90
+#: Template/FrontendMenus/add.ctp:116
+#: Template/MailSubs/add.ctp:46
+#: Template/News/add.ctp:164
+#: Template/Recruits/add.ctp:143
+#: Template/Sites/add.ctp:104
+#: Template/Slides/add.ctp:160
+#: Template/Users/add.ctp:133
+#: Template/Users/change_password.ctp:64
+#: Template/Users/profile.ctp:66
+msgid "submit"
+msgstr ""
+
+#: Template/tmp_add.ctp:41
+msgid "back"
+msgstr ""
+
+#: Template/tmp_list.ctp:38
+msgid "filter title"
+msgstr ""
+
+#: Template/tmp_list.ctp:45
+#: Template/Bake/Template/index.ctp:60
+msgid "actions"
+msgstr ""
+
+#: Template/tmp_list.ctp:54
+#: Template/Bake/Template/index.ctp:97
+#: Template/Element/link_action.ctp:3
+msgid "view"
+msgstr ""
+
+#: Template/tmp_list.ctp:55
+#: Template/Bake/Template/index.ctp:98
+#: Template/Bake/Template/view.ctp:60
+#: Template/Categories/view.ctp:72
+#: Template/CeoInfo/view.ctp:72
+#: Template/Contacts/view.ctp:67
+#: Template/Element/link_action.ctp:6
+#: Template/News/view.ctp:79
+#: Template/Recruits/view.ctp:83
+#: Template/Sites/view.ctp:67
+#: Template/Users/view.ctp:76
+msgid "edit"
+msgstr ""
+
+#: Template/tmp_list.ctp:56
+#: Template/Element/link_action.ctp:8
+msgid "delete"
+msgstr ""
+
+#: Template/tmp_list.ctp:56
+#: Template/Bake/Template/index.ctp:99
+#: Template/Element/link_action.ctp:8
+msgid "are you sure you want to delete # {0}"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:9;14
+#: Template/Bake/Template/index.ctp:10
+#: Template/Bake/Template/view.ctp:12;17
+msgid "<%= $pluralHumanName %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:16
+#: Template/Bake/Template/index.ctp:17;37
+msgid "List of <%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:32;40
+msgid "<%= Inflector::humanize($action) %> <%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:54;58;67;71;83
+#: Template/Bake/Template/index.ctp:58
+msgid "<%= $field %>"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:15
+msgid "<%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:24
+msgid "New <%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:19
+msgid "list of <%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:49
+msgid "<%= Inflector::humanize($field) %>"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:59
+#: Template/Categories/add.ctp:152
+#: Template/Categories/view.ctp:71
+#: Template/CeoInfo/add.ctp:122
+#: Template/CeoInfo/view.ctp:71
+#: Template/Contacts/add.ctp:91
+#: Template/Contacts/view.ctp:66
+#: Template/FrontendMenus/add.ctp:117
+#: Template/MailSubs/add.ctp:47
+#: Template/News/add.ctp:165
+#: Template/News/view.ctp:78
+#: Template/Recruits/add.ctp:144
+#: Template/Recruits/view.ctp:82
+#: Template/Sites/add.ctp:105
+#: Template/Sites/view.ctp:66
+#: Template/Slides/add.ctp:161
+#: Template/Users/add.ctp:134
+#: Template/Users/view.ctp:75
+msgid "cancel"
+msgstr ""
+
+#: Template/Categories/add.ctp:9
+msgid "list of category"
+msgstr ""
+
+#: Template/Categories/add.ctp:25
+msgid "category edit"
+msgstr ""
+
+#: Template/Categories/add.ctp:27
+msgid "category add"
+msgstr ""
+
+#: Template/Categories/add.ctp:39
+#: Template/Categories/index.ctp:51;64
+#: Template/FrontendMenus/add.ctp:39
+#: Template/FrontendMenus/index.ctp:51;62
+msgid "Parent"
+msgstr ""
+
+#: Template/Categories/add.ctp:41
+#: Template/FrontendMenus/add.ctp:41
+msgid "Select parent"
+msgstr ""
+
+#: Template/Categories/add.ctp:41
+#: Template/FrontendMenus/add.ctp:41;89
+#: Template/News/add.ctp:41
+msgid "ROOT"
+msgstr ""
+
+#: Template/Categories/add.ctp:47
+#: Template/News/add.ctp:47
+#: Template/Recruits/add.ctp:40
+#: Template/Sites/add.ctp:40
+msgid "Title English"
+msgstr ""
+
+#: Template/Categories/add.ctp:49
+#: Template/Contacts/add.ctp:42
+#: Template/News/add.ctp:49
+#: Template/Recruits/add.ctp:42
+#: Template/Sites/add.ctp:42
+msgid "title english"
+msgstr ""
+
+#: Template/Categories/add.ctp:54
+#: Template/News/add.ctp:54
+#: Template/Recruits/add.ctp:47
+#: Template/Sites/add.ctp:47
+msgid "Title Japanese"
+msgstr ""
+
+#: Template/Categories/add.ctp:56
+#: Template/News/add.ctp:56
+#: Template/Recruits/add.ctp:49
+#: Template/Sites/add.ctp:49
+msgid "title japanese"
+msgstr ""
+
+#: Template/Categories/add.ctp:61
+#: Template/News/add.ctp:61
+#: Template/Recruits/add.ctp:54
+#: Template/Sites/add.ctp:54
+msgid "Title Vietnamese"
+msgstr ""
+
+#: Template/Categories/add.ctp:63
+#: Template/News/add.ctp:63
+#: Template/Recruits/add.ctp:56
+#: Template/Sites/add.ctp:56
+msgid "title vietnamese"
+msgstr ""
+
+#: Template/Categories/add.ctp:68
+#: Template/FrontendMenus/add.ctp:67
+#: Template/News/add.ctp:68
+#: Template/Slides/add.ctp:82;84
+msgid "Description English"
+msgstr ""
+
+#: Template/Categories/add.ctp:70
+#: Template/FrontendMenus/add.ctp:69
+#: Template/News/add.ctp:70
+msgid "description english"
+msgstr ""
+
+#: Template/Categories/add.ctp:75
+#: Template/FrontendMenus/add.ctp:74
+#: Template/News/add.ctp:75
+#: Template/Slides/add.ctp:89;91
+msgid "Description Japanese"
+msgstr ""
+
+#: Template/Categories/add.ctp:77
+#: Template/FrontendMenus/add.ctp:76
+#: Template/News/add.ctp:77
+msgid "description japanese"
+msgstr ""
+
+#: Template/Categories/add.ctp:82
+#: Template/FrontendMenus/add.ctp:81
+#: Template/News/add.ctp:82
+#: Template/Slides/add.ctp:96;98
+msgid "Description Vietnamese"
+msgstr ""
+
+#: Template/Categories/add.ctp:84;92;100;108
+#: Template/FrontendMenus/add.ctp:83
+#: Template/News/add.ctp:84;92;100;108
+#: Template/Recruits/add.ctp:64;72;80;88
+#: Template/Sites/add.ctp:64;72;80
+msgid "description vietnamese"
+msgstr ""
+
+#: Template/Categories/add.ctp:89
+#: Template/News/add.ctp:89
+#: Template/Recruits/add.ctp:61
+#: Template/Sites/add.ctp:61
+#: Template/Slides/add.ctp:61;63
+msgid "Content English"
+msgstr ""
+
+#: Template/Categories/add.ctp:97
+#: Template/News/add.ctp:97
+#: Template/Recruits/add.ctp:69
+#: Template/Sites/add.ctp:69
+#: Template/Slides/add.ctp:68;70
+msgid "Content Japanese"
+msgstr ""
+
+#: Template/Categories/add.ctp:105
+#: Template/News/add.ctp:105
+#: Template/Recruits/add.ctp:77;85
+#: Template/Sites/add.ctp:77
+msgid "Content Vietnam"
+msgstr ""
+
+#: Template/Categories/add.ctp:113
+#: Template/Categories/view.ctp:45
+#: Template/CeoInfo/add.ctp:95
+#: Template/CeoInfo/index.ctp:52;65
+#: Template/CeoInfo/view.ctp:45
+#: Template/News/add.ctp:127
+#: Template/News/view.ctp:44
+#: Template/Recruits/add.ctp:114
+#: Template/Recruits/view.ctp:44
+#: Template/Sites/add.ctp:85
+#: Template/Sites/view.ctp:44
+#: Template/Slides/add.ctp:103
+#: Template/Slides/index.ctp:54
+msgid "Image"
+msgstr ""
+
+#: Template/Categories/add.ctp:116
+#: Template/CeoInfo/add.ctp:98
+#: Template/News/add.ctp:130;140
+#: Template/Recruits/add.ctp:117
+#: Template/Sites/add.ctp:88
+#: Template/Slides/add.ctp:106
+msgid "image"
+msgstr ""
+
+#: Template/Categories/add.ctp:125;134;143
+#: Template/CeoInfo/add.ctp:113
+#: Template/Contacts/add.ctp:83
+#: Template/FrontendMenus/add.ctp:108
+#: Template/News/add.ctp:149;157
+#: Template/Recruits/add.ctp:136
+#: Template/Sites/add.ctp:97
+#: Template/Slides/add.ctp:113
+msgid "active"
+msgstr ""
+
+#: Template/Categories/add.ctp:126
+msgid "Home"
+msgstr ""
+
+#: Template/Categories/add.ctp:135
+msgid "Service"
+msgstr ""
+
+#: Template/Categories/add.ctp:144
+#: Template/Categories/view.ctp:61
+#: Template/CeoInfo/add.ctp:114
+#: Template/CeoInfo/view.ctp:61
+#: Template/Contacts/add.ctp:84
+#: Template/Contacts/view.ctp:56
+#: Template/FrontendMenus/add.ctp:109
+#: Template/News/add.ctp:158
+#: Template/News/view.ctp:68
+#: Template/Recruits/add.ctp:137
+#: Template/Recruits/view.ctp:72
+#: Template/Sites/add.ctp:98
+#: Template/Sites/view.ctp:56
+#: Template/Slides/add.ctp:114
+msgid "Active"
+msgstr ""
+
+#: Template/Categories/index.ctp:12
+#: Template/FrontendMenus/add.ctp:87
+#: Template/News/add.ctp:39
+#: Template/News/index.ctp:54
+msgid "Category"
+msgstr ""
+
+#: Template/Categories/index.ctp:19
+#: Template/CeoInfo/index.ctp:19
+#: Template/Contacts/index.ctp:19
+#: Template/Element/breadcrumb_content.ctp:15
+#: Template/Element/paginator.ctp:26
+#: Template/FrontendMenus/index.ctp:19
+#: Template/News/index.ctp:19
+#: Template/Recruits/index.ctp:19
+#: Template/Sites/index.ctp:19
+#: Template/Users/index.ctp:19
+msgid "add new"
+msgstr ""
+
+#: Template/Categories/index.ctp:33
+#: Template/FrontendMenus/index.ctp:33
+#: Template/Users/add.ctp:9
+#: Template/Users/index.ctp:12;33
+#: Template/Users/view.ctp:11
+msgid "list of users"
+msgstr ""
+
+#: Template/Categories/index.ctp:50;61
+#: Template/Contacts/index.ctp:50;57
+#: Template/FrontendMenus/index.ctp:50;59
+#: Template/MailSubs/index.ctp:43;49
+#: Template/Messages/index.ctp:43;52
+#: Template/News/index.ctp:50;61
+#: Template/Recruits/index.ctp:50;60
+#: Template/Sites/index.ctp:50;58
+#: Template/Slides/index.ctp:50;60
+msgid "ID"
+msgstr ""
+
+#: Template/Categories/index.ctp:52;67
+#: Template/Categories/view.ctp:49
+#: Template/Contacts/add.ctp:40
+#: Template/Contacts/index.ctp:51;60
+#: Template/Contacts/view.ctp:44
+#: Template/News/view.ctp:48
+#: Template/Recruits/index.ctp:51;63
+#: Template/Recruits/view.ctp:48
+#: Template/Sites/index.ctp:51;61
+#: Template/Sites/view.ctp:48
+msgid "Title"
+msgstr ""
+
+#: Template/Categories/index.ctp:53;70
+#: Template/Categories/view.ctp:53
+#: Template/FrontendMenus/index.ctp:53;68
+#: Template/News/view.ctp:52
+#: Template/Slides/index.ctp:53;69
+msgid "Description"
+msgstr ""
+
+#: Template/Categories/index.ctp:54
+msgid "News section at Home (Choose 2)"
+msgstr ""
+
+#: Template/Categories/index.ctp:55
+msgid "Service section at Home (Choose 4)"
+msgstr ""
+
+#: Template/Categories/index.ctp:56
+#: Template/Contacts/index.ctp:52
+#: Template/News/index.ctp:56
+#: Template/Recruits/index.ctp:55
+#: Template/Sites/index.ctp:53
+#: Template/Slides/index.ctp:55
+#: Template/Users/add.ctp:86;87
+#: Template/Users/index.ctp:70
+#: Template/Users/view.ctp:61
+msgid "status"
+msgstr ""
+
+#: Template/Categories/index.ctp:57
+#: Template/CeoInfo/index.ctp:55
+#: Template/Contacts/index.ctp:53
+#: Template/FrontendMenus/index.ctp:55
+#: Template/MailSubs/index.ctp:45
+#: Template/Messages/index.ctp:48
+#: Template/News/index.ctp:57
+#: Template/Recruits/index.ctp:56
+#: Template/Sites/index.ctp:54
+#: Template/Slides/index.ctp:56
+#: Template/Users/index.ctp:71
+msgid "action"
+msgstr ""
+
+#: Template/Categories/index.ctp:61;64;67;70
+#: Template/CeoInfo/index.ctp:59;62;65;68
+#: Template/Contacts/index.ctp:57;60
+#: Template/FrontendMenus/index.ctp:59;62;65;68
+#: Template/MailSubs/index.ctp:49;52
+#: Template/Messages/index.ctp:52;55;58;61;64
+#: Template/News/index.ctp:61;64;67;70;73
+#: Template/Recruits/index.ctp:60;63;66;69;72
+#: Template/Sites/index.ctp:58;61;64
+#: Template/Slides/index.ctp:60;63;66;69
+#: Template/Users/index.ctp:51;54;57;60
+msgid "filter"
+msgstr ""
+
+#: Template/Categories/view.ctp:11
+msgid "list of categories"
+msgstr ""
+
+#: Template/Categories/view.ctp:57
+#: Template/Contacts/view.ctp:52
+#: Template/Messages/index.ctp:47;64
+#: Template/News/view.ctp:56
+#: Template/Recruits/index.ctp:52;66
+#: Template/Recruits/view.ctp:52
+#: Template/Sites/index.ctp:52;64
+#: Template/Sites/view.ctp:52
+#: Template/Slides/index.ctp:52;66
+msgid "Content"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:9
+#: Template/CeoInfo/view.ctp:11
+msgid "list of Ceo-Info"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:25
+msgid "Ceo-Info edit"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:27
+msgid "Ceo-Info add"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:39;41
+#: Template/CeoInfo/index.ctp:50;59
+#: Template/CeoInfo/view.ctp:49
+#: Template/FrontendMenus/index.ctp:52;65
+#: Template/Messages/index.ctp:44;55
+#: Template/Slides/index.ctp:51;63
+msgid "Name"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:46
+msgid "Position English"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:48
+msgid "position english"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:53
+msgid "Position Japanese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:55
+msgid "position japanese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:60
+msgid "Position Vietnamese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:62
+msgid "position vietnamese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:67
+msgid "Comment English"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:69
+msgid "comment english"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:74
+msgid "Comment Japanese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:76
+msgid "comment japanese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:81
+msgid "Comment Vietnamese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:83
+msgid "comment vietnamese"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:88
+msgid "Link (For Partnership Image Only)"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:90
+#: Template/FrontendMenus/add.ctp:100
+msgid "Link"
+msgstr ""
+
+#: Template/CeoInfo/add.ctp:104
+msgid "Type display"
+msgstr ""
+
+#: Template/CeoInfo/index.ctp:12
+msgid "Ceo Info"
+msgstr ""
+
+#: Template/CeoInfo/index.ctp:33
+msgid "list of Ceo Info"
+msgstr ""
+
+#: Template/CeoInfo/index.ctp:51;62
+#: Template/CeoInfo/view.ctp:53
+#: Template/Recruits/add.ctp:93;95
+#: Template/Recruits/index.ctp:53;69
+#: Template/Recruits/view.ctp:56
+msgid "Position"
+msgstr ""
+
+#: Template/CeoInfo/index.ctp:53
+msgid "Section"
+msgstr ""
+
+#: Template/CeoInfo/index.ctp:54;68
+#: Template/FrontendMenus/index.ctp:54
+msgid "Status"
+msgstr ""
+
+#: Template/CeoInfo/view.ctp:57
+msgid "comment"
+msgstr ""
+
+#: Template/Contacts/add.ctp:9
+#: Template/Contacts/view.ctp:11
+msgid "list of contacts"
+msgstr ""
+
+#: Template/Contacts/add.ctp:25
+#: Template/News/add.ctp:25
+#: Template/Recruits/add.ctp:25
+#: Template/Sites/add.ctp:25
+msgid "new edit"
+msgstr ""
+
+#: Template/Contacts/add.ctp:27
+#: Template/News/add.ctp:27
+#: Template/Recruits/add.ctp:27
+#: Template/Sites/add.ctp:27
+msgid "news add"
+msgstr ""
+
+#: Template/Contacts/add.ctp:47;49
+msgid "Address"
+msgstr ""
+
+#: Template/Contacts/add.ctp:54;56
+msgid "Telephone"
+msgstr ""
+
+#: Template/Contacts/add.ctp:61;63
+msgid "Fax"
+msgstr ""
+
+#: Template/Contacts/add.ctp:68;70
+#: Template/MailSubs/add.ctp:39;41
+#: Template/MailSubs/index.ctp:12;44;52
+#: Template/Messages/index.ctp:45;58
+msgid "Email"
+msgstr ""
+
+#: Template/Contacts/add.ctp:75;77
+msgid "Website"
+msgstr ""
+
+#: Template/Contacts/index.ctp:12
+msgid "Contact"
+msgstr ""
+
+#: Template/Contacts/index.ctp:33
+msgid "list of contact"
+msgstr ""
+
+#: Template/Contacts/view.ctp:48
+msgid ""
+msgstr ""
+
+#: Template/Element/breadcrumb.ctp:4
+msgid "warning this will reset your pages"
+msgstr ""
+
+#: Template/Element/button_add_top.ctp:3
+msgid "new %s"
+msgstr ""
+
+#: Template/Element/footer.ctp:5
+msgid "power by hiworld jsc"
+msgstr ""
+
+#: Template/Element/header.ctp:16
+msgid "collapse menu"
+msgstr ""
+
+#: Template/Element/header.ctp:29
+msgid "setting"
+msgstr ""
+
+#: Template/Element/header.ctp:33
+msgid "profile"
+msgstr ""
+
+#: Template/Element/header.ctp:37
+msgid "shortcut"
+msgstr ""
+
+#: Template/Element/header.ctp:41;63
+msgid "full screen"
+msgstr ""
+
+#: Template/Element/header.ctp:45
+msgid "logout"
+msgstr ""
+
+#: Template/Element/header.ctp:54
+msgid "signout"
+msgstr ""
+
+#: Template/Element/header.ctp:54
+msgid "you can improve your security further after logging out by closing this opened browser"
+msgstr ""
+
+#: Template/Element/paginator.ctp:9
+msgid "first"
+msgstr ""
+
+#: Template/Element/paginator.ctp:10
+msgid "prev"
+msgstr ""
+
+#: Template/Element/paginator.ctp:17
+msgid "next"
+msgstr ""
+
+#: Template/Element/paginator.ctp:18
+msgid "last"
+msgstr ""
+
+#: Template/Element/paginator.ctp:33
+msgid "delete selected"
+msgstr ""
+
+#: Template/Element/paginator.ctp:40
+msgid "back to translate"
+msgstr ""
+
+#: Template/Element/paginator.ctp:41
+msgid "save data"
+msgstr ""
+
+#: Template/Element/shortcut.ctp:12
+#: Template/Users/change_password.ctp:8
+#: Template/Users/profile.ctp:9
+msgid "my profile"
+msgstr ""
+
+#: Template/Element/shortcut.ctp:22
+#: Template/Users/change_password.ctp:23
+msgid "change password"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:9
+msgid "list of menu"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:25
+msgid "menu edit"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:27
+msgid "menu add"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:46
+#: Template/Slides/add.ctp:40;42
+msgid "Name English"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:48
+msgid "name english"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:53
+#: Template/Slides/add.ctp:47;49
+msgid "Name Japanese"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:55
+msgid "name japanese"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:60
+#: Template/Slides/add.ctp:54;56
+msgid "Name Vietnamese"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:62
+msgid "name vietnamese"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:89
+#: Template/News/add.ctp:41
+msgid "Select category"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:92
+msgid "Static Page"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:94
+msgid "Select a static page"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:94
+msgid "0"
+msgstr ""
+
+#: Template/FrontendMenus/add.ctp:102
+msgid "link"
+msgstr ""
+
+#: Template/FrontendMenus/index.ctp:12
+msgid "Frontend Menu"
+msgstr ""
+
+#: Template/MailSubs/add.ctp:9
+#: Template/MailSubs/index.ctp:26
+msgid "List of Emails"
+msgstr ""
+
+#: Template/MailSubs/add.ctp:25;27
+msgid "Email add"
+msgstr ""
+
+#: Template/Messages/index.ctp:12
+msgid "Messages"
+msgstr ""
+
+#: Template/Messages/index.ctp:26
+msgid "List of Messages"
+msgstr ""
+
+#: Template/Messages/index.ctp:46;61
+msgid "Phone"
+msgstr ""
+
+#: Template/News/add.ctp:9
+#: Template/News/index.ctp:33
+#: Template/News/view.ctp:11
+#: Template/Sites/add.ctp:9
+msgid "list of news"
+msgstr ""
+
+#: Template/News/add.ctp:113
+msgid "Set posted time"
+msgstr ""
+
+#: Template/News/add.ctp:120
+msgid "Set created time"
+msgstr ""
+
+#: Template/News/add.ctp:138
+#: Template/Recruits/add.ctp:125
+msgid "File"
+msgstr ""
+
+#: Template/News/add.ctp:150
+#: Template/News/index.ctp:55
+msgid "Featured News"
+msgstr ""
+
+#: Template/News/index.ctp:12
+msgid "News"
+msgstr ""
+
+#: Template/News/view.ctp:60
+#: Template/Recruits/view.ctp:64
+msgid "Created"
+msgstr ""
+
+#: Template/News/view.ctp:64
+msgid "Posted time"
+msgstr ""
+
+#: Template/Recruits/add.ctp:9
+#: Template/Recruits/index.ctp:33
+msgid "list of recruitment news"
+msgstr ""
+
+#: Template/Recruits/add.ctp:100;102
+#: Template/Recruits/index.ctp:54;72
+#: Template/Recruits/view.ctp:60
+msgid "Number"
+msgstr ""
+
+#: Template/Recruits/add.ctp:107
+msgid "Set deadline"
+msgstr ""
+
+#: Template/Recruits/add.ctp:127
+msgid "file"
+msgstr ""
+
+#: Template/Recruits/index.ctp:12
+msgid "Recruitment"
+msgstr ""
+
+#: Template/Recruits/view.ctp:11
+msgid "list of recruitment recruit"
+msgstr ""
+
+#: Template/Recruits/view.ctp:68
+msgid "Deadline"
+msgstr ""
+
+#: Template/Sites/index.ctp:12
+msgid "Sites"
+msgstr ""
+
+#: Template/Sites/index.ctp:33
+msgid "list of sites"
+msgstr ""
+
+#: Template/Sites/view.ctp:11
+msgid "list of site"
+msgstr ""
+
+#: Template/Slides/add.ctp:9
+#: Template/Slides/index.ctp:33
+msgid "List of Slides"
+msgstr ""
+
+#: Template/Slides/add.ctp:25;27
+msgid "Slide add"
+msgstr ""
+
+#: Template/Slides/add.ctp:75;77
+msgid "Content Vietnamese"
+msgstr ""
+
+#: Template/Slides/index.ctp:12
+msgid "Slides"
+msgstr ""
+
+#: Template/Slides/index.ctp:19
+msgid "New Slide"
+msgstr ""
+
+#: Template/Users/add.ctp:25
+msgid "user edit"
+msgstr ""
+
+#: Template/Users/add.ctp:27
+msgid "user add"
+msgstr ""
+
+#: Template/Users/add.ctp:40
+#: Template/Users/index.ctp:54;67
+#: Template/Users/profile.ctp:36
+#: Template/Users/view.ctp:49
+msgid "email"
+msgstr ""
+
+#: Template/Users/add.ctp:46
+#: Template/Users/profile.ctp:58
+#: Template/Users/view.ctp:45
+msgid "avatar"
+msgstr ""
+
+#: Template/Users/add.ctp:53
+msgid "password"
+msgstr ""
+
+#: Template/Users/add.ctp:59
+msgid "confirm password"
+msgstr ""
+
+#: Template/Users/add.ctp:68
+#: Template/Users/index.ctp:57
+#: Template/Users/profile.ctp:46
+msgid "first name"
+msgstr ""
+
+#: Template/Users/add.ctp:73
+#: Template/Users/index.ctp:60
+#: Template/Users/profile.ctp:51
+msgid "last name"
+msgstr ""
+
+#: Template/Users/add.ctp:80
+#: Template/Users/index.ctp:69
+#: Template/Users/view.ctp:57
+msgid "group"
+msgstr ""
+
+#: Template/Users/change_password.ctp:43
+msgid "old password"
+msgstr ""
+
+#: Template/Users/change_password.ctp:52
+msgid "new password"
+msgstr ""
+
+#: Template/Users/change_password.ctp:58
+msgid "password confirm"
+msgstr ""
+
+#: Template/Users/index.ctp:51;68
+#: Template/Users/view.ctp:53
+msgid "name"
+msgstr ""
+
+#: Template/Users/index.ctp:66
+msgid "id"
+msgstr ""
+
+#: Template/Users/profile.ctp:24
+msgid "edit profile"
+msgstr ""
+
+#: Template/Users/view.ctp:65
+msgid "created"
+msgstr ""
+

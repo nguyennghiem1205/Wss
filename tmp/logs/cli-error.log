@@ -1,0 +1,126 @@
+2015-09-23 10:47:41 Warning: Warning (512): /var/www/html/wss/tmp/cache/persistent/ is not writable in [/var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 130
+__ - CORE/src/I18n/functions.php, line 33
+require - ROOT/config/constant.php, line 47
+include - ROOT/config/bootstrap.php, line 211
+[main] - ROOT/bin/cake.php, line 31
+
+
+
+2015-09-23 10:47:41 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /var/www/html/wss/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create('Cake\Cache\Engi...', '_cake_core_', Array)
+#1 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(130): Cake\I18n\I18n::translators()
+#5 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/functions.php(33): Cake\I18n\I18n::translator()
+#6 /var/www/html/wss/config/constant.php(47): __('female')
+#7 /var/www/html/wss/config/bootstrap.php(211): require('/var/www/html/w...')
+#8 /var/www/html/wss/bin/cake.php(31): include('/var/www/html/w...')
+#9 {main}
+
+
+2015-09-25 03:01:20 Error: [Cake\Core\Exception\Exception] Unable to insert fixtures for "App\Test\TestCase\Controller\NewsControllerTest" test case. SQLSTATE[28000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES)
+Stack Trace:
+#0 /var/www/html/wss/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php(156): Cake\TestSuite\Fixture\FixtureManager->load(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#1 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestResult.php(325): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#2 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestResult.php(541): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#3 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestCase.php(702): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#4 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestSuite.php(735): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#5 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestSuite.php(735): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#6 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/TestRunner.php(432): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/Command.php(148): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#8 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/Command.php(100): PHPUnit_TextUI_Command->run(Array, true)
+#9 /var/www/html/wss/phpunit.phar(547): PHPUnit_TextUI_Command::main()
+#10 {main}
+
+
+2015-09-25 03:01:31 Error: [Cake\Core\Exception\Exception] Unable to insert fixtures for "App\Test\TestCase\Controller\NewsControllerTest" test case. SQLSTATE[28000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES)
+Stack Trace:
+#0 /var/www/html/wss/vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php(156): Cake\TestSuite\Fixture\FixtureManager->load(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#1 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestResult.php(325): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#2 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestResult.php(541): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#3 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestCase.php(702): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\NewsControllerTest))
+#4 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestSuite.php(735): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#5 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/Framework/TestSuite.php(735): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#6 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/TestRunner.php(432): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/Command.php(148): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#8 phar:///var/www/html/wss/phpunit.phar/phar/phpunit/TextUI/Command.php(100): PHPUnit_TextUI_Command->run(Array, true)
+#9 /var/www/html/wss/phpunit.phar(547): PHPUnit_TextUI_Command::main()
+#10 {main}
+
+
+2015-09-25 09:25:28 Warning: Warning (512): /var/www/html/wss/tmp/cache/persistent/ is not writable in [/var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 154
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 186
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 80
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 137
+__ - CORE/src/I18n/functions.php, line 33
+require - ROOT/config/constant.php, line 59
+include - ROOT/config/bootstrap.php, line 211
+[main] - ROOT/bin/cake.php, line 31
+
+
+
+2015-09-25 09:25:28 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /var/www/html/wss/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create('Cake\Cache\Engi...', '_cake_core_', Array)
+#1 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(154): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(186): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(80): Cake\Cache\Cache::engine('_cake_core_')
+#4 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(137): Cake\I18n\I18n::translators()
+#5 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/functions.php(33): Cake\I18n\I18n::translator()
+#6 /var/www/html/wss/config/constant.php(59): __('female')
+#7 /var/www/html/wss/config/bootstrap.php(211): require('/var/www/html/w...')
+#8 /var/www/html/wss/bin/cake.php(31): include('/var/www/html/w...')
+#9 {main}
+
+
+2015-09-25 09:37:24 Warning: Warning (512): /var/www/html/wss/tmp/cache/persistent/ is not writable in [/var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 154
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 186
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 80
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 137
+__ - CORE/src/I18n/functions.php, line 33
+require - ROOT/config/constant.php, line 59
+include - ROOT/config/bootstrap.php, line 211
+[main] - ROOT/bin/cake.php, line 31
+
+
+
+2015-09-25 09:37:24 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /var/www/html/wss/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create('Cake\Cache\Engi...', '_cake_core_', Array)
+#1 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(154): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /var/www/html/wss/vendor/cakephp/cakephp/src/Cache/Cache.php(186): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(80): Cake\Cache\Cache::engine('_cake_core_')
+#4 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/I18n.php(137): Cake\I18n\I18n::translators()
+#5 /var/www/html/wss/vendor/cakephp/cakephp/src/I18n/functions.php(33): Cake\I18n\I18n::translator()
+#6 /var/www/html/wss/config/constant.php(59): __('female')
+#7 /var/www/html/wss/config/bootstrap.php(211): require('/var/www/html/w...')
+#8 /var/www/html/wss/bin/cake.php(31): include('/var/www/html/w...')
+#9 {main}
+
+

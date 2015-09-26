@@ -1,0 +1,46 @@
+2015-09-23 11:13:37 Notice: Notice (8): Undefined index: HTTP_ACCEPT_LANGUAGE in [/var/www/html/wss/src/Controller/AppController.php, line 305]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\AppController::_setLanguage() - APP/Controller/AppController.php, line 305
+App\Controller\AppController::initialize() - APP/Controller/AppController.php, line 56
+Admin\Controller\AppController::initialize() - ROOT/plugins/Admin/src/Controller/AppController.php, line 19
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+Bake\Shell\Task\TestTask::buildTestSubject() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 300
+Bake\Shell\Task\TestTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 217
+Bake\Shell\Task\ControllerTask::bakeTest() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 206
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 141
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 65
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 251
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 50
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 441
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2015-09-23 11:13:59 Notice: Notice (8): Undefined index: HTTP_ACCEPT_LANGUAGE in [/var/www/html/wss/src/Controller/AppController.php, line 305]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\AppController::_setLanguage() - APP/Controller/AppController.php, line 305
+App\Controller\AppController::initialize() - APP/Controller/AppController.php, line 56
+Admin\Controller\AppController::initialize() - ROOT/plugins/Admin/src/Controller/AppController.php, line 19
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+Bake\Shell\Task\TestTask::buildTestSubject() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 300
+Bake\Shell\Task\TestTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 217
+Bake\Shell\Task\ControllerTask::bakeTest() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 206
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 141
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 65
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 251
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 50
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 441
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
