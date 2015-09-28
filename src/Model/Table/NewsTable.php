@@ -129,4 +129,19 @@ class NewsTable extends Table
         return $output;
     }
 
+    function saveFileFromUrl($oldUrl, $path, $fileName) {
+        $url = str_replace(' ', '%20', $oldUrl);
+        if (!is_dir(WWW_ROOT.'upload'.DS.$path)) {
+            @mkdir(WWW_ROOT.'upload'.DS.$path);
+        }
+        $file = @file_get_contents($url);
+        if (trim($file)) {
+            if (@file_put_contents(WWW_ROOT.'upload'.DS.$path.DS.$fileName, $file)) {
+                @chmod(WWW_ROOT.'upload'.DS.$path.DS.$fileName, 0777);
+                return $fileName;
+            };
+        }
+        return null;
+    }
+
 }

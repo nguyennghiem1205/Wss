@@ -40,7 +40,7 @@ echo $this->element('Admin.shortcut');
 </body>
 <?php
 echo $this->Html->script(array(
-//    'Admin.jquery.js',
+//   'Admin.jquery.js',
 //    'Admin.libs.smart-admin.js',
     'Admin.plugin/pace/pace.min.js',
     'Admin.app.config.js',

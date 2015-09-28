@@ -243,4 +243,15 @@ class PagesController extends AppController
             'status' => $status
         ]);
     }
+
+    public function test(){
+        $fileName = './upload/News/20150925_20150925 - E1VFVN30 - CBTT ket thuc GD hoan doi ngay 24.9.2015.pdf';
+        if (file_exists($fileName)) {
+//            $oldUrl = 'http://www1.hsx.vn/Modules/Cms/Web/DownloadFile/b51e9fc0-a2a7-4c19-964f-146fafb529c3?ridx=1546163119';
+//            $path = 'News';
+//            $this->Core->saveFileFromUrl($oldUrl, $path, $fileName);
+            echo 'Yes';
+        } else echo 'No';
+        die;
+    }
 }

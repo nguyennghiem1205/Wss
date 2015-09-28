@@ -54,7 +54,7 @@ error_reporting(0);
                             </div>
                         <?php
                         }
-                        else {
+                        elseif(in_array(strtolower($info->getExtension()), ['xls', 'xlsx', 'csv'])) {
                             $outputFileType = 'HTML';
                             $outputFileName = 'php://output';
                             $objPHPExcel = PHPExcel_IOFactory::load(WWW_ROOT.'upload/News/'.$news['file']);
@@ -65,6 +65,10 @@ error_reporting(0);
                                 $objPHPExcelWriter->save($outputFileName);
                                 ?>
                             </div>
+                    <?php
+                        }
+                        elseif(in_array(strtolower($info->getExtension()), ['png', 'jpg', 'jpeg'])){ ?>
+                          <img style='width:100%; height:100%' src="<?= $this->Url->build('/upload/News/').$news['file']?>"/>
                     <?php
                         }
                     }

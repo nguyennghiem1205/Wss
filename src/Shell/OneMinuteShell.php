@@ -26,10 +26,10 @@ class OneMinuteShell extends Shell
     public function main()
     {
         $this->sendMail();
+        $this->createCategories();
         $this->crawlerSSC();
         $this->crawlerHSX();
         $this->crawlerHNX();
-        $this->createCategories();
 
     }
     
@@ -99,14 +99,6 @@ class OneMinuteShell extends Shell
 
                 $news = TableRegistry::get('News')->newEntity();
                 $news->title_vie = $news->title_eng = $news->title_jpn = $tr->find('td', 0)->plaintext.': '.$tr->find('td', 1)->plaintext;
-                $created = substr(trim($tr->find('td', 2)->plaintext), 0, 10);
-                $created =  $created = str_replace('/', '-', $created);
-                $created = date("Y-m-d H:i", strtotime($created));
-                $news->created = $news->modified = $news->posted = $created;
-                $news->content_vie = $news->content_eng = $news->content_jpn = $this->News->getContentSsc($link);
-                $news->category_id = 10001;
-                $news->active = 1;
-                $news->featured = 0;
 
                 $newsExisted = TableRegistry::get('News')->find()->where([
                     'title_eng' => $news->title_eng
@@ -115,6 +107,19 @@ class OneMinuteShell extends Shell
                 if($newsExisted->toArray()){
                     continue;
                 }
+
+                $created = substr(trim($tr->find('td', 2)->plaintext), 0, 10);
+                $created =  $created = str_replace('/', '-', $created);
+                $created = date("Y-m-d H:i", strtotime($created));
+                $news->created = $news->modified = $news->posted = $created;
+                $news->content_vie = $news->content_eng = $news->content_jpn = $this->News->getContentSsc($link);
+                $news->category_id = 10001;
+                $news->active = 1;
+                $news->featured = 0;
+                if($tr->find('td', 3)){
+                    $news->file = $tr->find('td', 3)->find('a',0)->href;
+                }
+
                 TableRegistry::get('News')->save($news);
             }
         }
@@ -124,12 +129,19 @@ class OneMinuteShell extends Shell
         $url = "http://www1.hsx.vn/Modules/CMS/Web/ArticleInCategory/dca0933e-a578-4eaf-8b29-beb4575052c5?exclude=00000000-0000-0000-0000-000000000000&lim=True&pageFieldName1=FromDate&pageFieldValue1=26.09.2013&pageFieldOperator1=eq&pageFieldName2=ToDate&pageFieldValue2=26.09.2015&pageFieldOperator2=eq&pageFieldName3=TokenCode&pageFieldValue3=&pageFieldOperator3=eq&pageFieldName4=CategoryId&pageFieldValue4=dca0933e-a578-4eaf-8b29-beb4575052c5&pageFieldOperator4=eq&pageCriteriaLength=4&_search=false&nd=1443261342478&rows=30&page=1&sidx=id&sord=desc";
         $data = json_decode(file_get_contents($url));
         $data = $data->rows;
-        foreach($data as $item){
+        foreach($data as $item) {
             $news = TableRegistry::get('News')->newEntity();
 
-            $link = "http://www1.hsx.vn/Modules/Cms/Web/LoadArticle?id=".$item->cell[0];
-            preg_match('/(<span.*>)(.*)(<)/',$item->cell[2], $matches);
-            $news->title_eng = $news->title_vie = $news->title_jpn =  $matches[2];
+            $link = "http://www1.hsx.vn/Modules/Cms/Web/LoadArticle?id=" . $item->cell[0];
+            preg_match('/(<span.*>)(.*)(<)/', $item->cell[2], $matches);
+            $news->title_eng = $news->title_vie = $news->title_jpn = $matches[2];
+
+            $newsExisted = TableRegistry::get('News')->find()->where([
+                'title_eng' => $news->title_eng
+            ]);
+            if ($newsExisted->toArray()) {
+                continue;
+            }
 
             $created = $item->cell[1];
             $created = str_replace('CH', 'PM', $created);
@@ -138,9 +150,14 @@ class OneMinuteShell extends Shell
             $news->created = $news->modified = $news->posted = date("Y-m-d H:i", strtotime($created));
 
             $data = file_get_html($link);
+            if ($data->find('a', 0)) {
+                $file_href = 'http://www1.hsx.vn' . $data->find('a', 0)->href;
+                $file_text = $data->find('a', 0)->plaintext;
+                $this->News->saveFileFromUrl($file_href, 'News', $file_text);
+                $news->file = $file_text;
+            }
+
             $content = $data->find('div[class="desc unreset"]' , 0)->plaintext;
-            $file_href = 'http://www1.hsx.vn'.$data->find('a' , 0)->href;
-            $file_text = $data->find('a' , 0)->plaintext;
             $content = $content.'<br>'.'Tài liệu đính kèm'.': '.'<a href ="'.$file_href.'">'.$file_text .'</a>';
             $content = html_entity_decode($content,null,'UTF-8');
             $news->content_vie = $news->content_jpn = $news->content_eng = $content;
@@ -148,13 +165,6 @@ class OneMinuteShell extends Shell
             $news->category_id = 10002;
             $news->active = 1;
             $news->featured = 0;
-
-            $newsExisted = TableRegistry::get('News')->find()->where([
-                'title_eng' => $news->title_eng
-            ]);
-            if($newsExisted->toArray()){
-                continue;
-            }
 
             TableRegistry::get('News')->save($news);
         };
@@ -180,11 +190,20 @@ class OneMinuteShell extends Shell
             $title = $item[5].' ('.$item[2].'): '.$item[6];
             $news->title_eng = $news->title_jpn = $news->title_vie = $title;
 
+            $newsExisted = TableRegistry::get('News')->find()->where([
+                'title_eng' => $news->title_eng
+            ]);
+            if($newsExisted->toArray()){
+                continue;
+            }
+
             $content = ($get_content->find('table', 2)->find('div', 0)->innertext);
 
             $file = '';
             if($get_content->find('a', 0)) {
                 $file = '<br>Tài liệu đính kèm: '.'<a href="'.$get_content->find('a', 0)->href.'">'.$get_content->find('a', 0)->plaintext.'</a>';
+                $this->News->saveFileFromUrl($get_content->find('a', 0)->href, 'News', $get_content->find('a', 0)->plaintext);
+                $news->file = $get_content->find('a', 0)->plaintext;
             }
 
             if($file != ''){
@@ -196,13 +215,6 @@ class OneMinuteShell extends Shell
             $news->category_id = 10003;
             $news->active = 1;
             $news->featured = 0;
-
-            $newsExisted = TableRegistry::get('News')->find()->where([
-                'title_eng' => $news->title_eng
-            ]);
-            if($newsExisted->toArray()){
-                continue;
-            }
 
             TableRegistry::get('News')->save($news);
         }
