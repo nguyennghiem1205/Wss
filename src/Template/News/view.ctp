@@ -77,8 +77,14 @@ error_reporting(0);
                         <ul>
                             <?php
                             foreach($recentlist as $row){
+                                $url = Core::generateUrl([
+                                    'controller'=>'News',
+                                    'action'=>'view',
+                                    'name' => $row['title_'.__('lang')],
+                                    'id' => $row['id']
+                                ]);
                                 echo '<li>';
-                                echo $this->Html->link($row['title_'.__('lang')].' ('.date_format($row['created'], 'Y-m-d H:i').')', ['controller'=> 'News', 'action' => 'view', $row['id']]);
+                                echo '<a href="'.$url.'">'.$row['title_'.__('lang')].' ('.date_format($row['created'], 'Y-m-d H:i').')'.'</a>' ;// $this->Html->link($row['title_'.__('lang')].' ('.date_format($row['created'], 'Y-m-d H:i').')', ['controller'=> 'News', 'action' => 'view', $row['id']]);
                                 echo '</li>';
                             }
                             ?>

@@ -243,6 +243,4 @@ class PagesController extends AppController
             'status' => $status
         ]);
     }
-
-
 }

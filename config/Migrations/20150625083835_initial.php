@@ -101,14 +101,6 @@ class Initial extends AbstractMigration
             ->addColumn('modified', 'datetime', ['null' => true, 'default' => null])
             ->save();
 
-        $category = TableRegistry::get('Categories')->newEntity();
-        $category->title_vie = $category->title_eng= $category->title_jpn = 'SSC News';
-        $category->description_eng = 'Announced News from SSC';
-        $category->description_jpn = 'Announced News from SSC';
-        $category->description_vie = 'Thông tin công bố từ SSC';
-        $category->active = 1;
-        TableRegistry::get('Categories')->save($category);
-
         $categories = $this->table('ceo_info');
         $categories
             ->addColumn('name','string',['limit'=>1000])
