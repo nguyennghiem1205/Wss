@@ -309,13 +309,12 @@ class CoreComponent extends Component
             case 0://category
                 $parentId=$menus->find('all', ['fields'=>'parent_id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$id.'%']]);
                 $id_mn=$menus->find('all', ['fields'=>'id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$id.'%']])->toArray();
-
                 break;
             case 1://news
                 $catid=$news->find('all',['fields'=>'category_id','conditions' => ['id'=>$id]])->toArray()[0];
                 $catid=$catid['category_id'];
-                $parentId=$menus->find('all', ['fields'=>'parent_id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$id.'%']]);
-                $id_mn=$menus->find('all', ['fields'=>'id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$id.'%']])->toArray();
+                $parentId=$menus->find('all', ['fields'=>'parent_id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$catid.'%']]);
+                $id_mn=$menus->find('all', ['fields'=>'id','conditions' => ['active' => 1,'link LIKE'=>'catid='.$catid.'%']])->toArray();
                 break;
             case 2://pages
                 $parentId=$menus->find('all', ['fields'=>'parent_id','conditions' => ['active' => 1,'link LIKE'=>'siteid='.$id.'%']]);

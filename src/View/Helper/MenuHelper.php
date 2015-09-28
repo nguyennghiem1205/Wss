@@ -46,8 +46,8 @@ class MenuHelper extends Helper
                 'name' => $name,
                 'id' => $id
             ]);
-        if($link='contact')return $this->Url->build(['controller'=>'Pages','action'=>'contact']);
-        if($link='recruitment')return $this->Url->build(['controller'=>'Pages','action'=>'recruitment']);
+        if($link=='contact')return $this->Url->build(['controller'=>'Pages','action'=>'contact']);
+        if($link=='recruitment')return $this->Url->build(['controller'=>'Pages','action'=>'recruitment']);
         return $link;
     }
     function checkChildren($bo,$con){

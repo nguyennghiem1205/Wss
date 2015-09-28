@@ -9,7 +9,7 @@
         'Admin.smartadmin-skins.min.css',
         'Admin.smartadmin-rtl.min.css',
         'Admin.demo.min.css',
-        'jquery.datetimepicker.css'
+        'Admin.jquery.datetimepicker.css'
     ));
     ?>
     <?= $this->Html->script('Admin.jquery.datetimepicker.full.min.js')?>
@@ -19,6 +19,7 @@
 <?php
 echo $this->element('Admin.header');
 $cell = $this->cell('Admin.Menu');
+
 echo $cell;
 ?>
 <div id="main" role="main">

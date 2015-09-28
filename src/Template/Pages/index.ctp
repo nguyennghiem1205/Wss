@@ -218,7 +218,8 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    accusamus labore sustainable VHS.
+                                    <img src="http://chart.vietstock.vn/finance/FinanceMain/Vn-Index-realtime-250x160-NoTitle.png?rnd=-1363795888"/>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -226,13 +227,14 @@
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        VN30-INDEX
+                                        HNX-INDEX
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <img src="http://chart.vietstock.vn/finance/FinanceMain/HNX-Index-realtime-250x160-NoTitle.png?rnd=0.14062869505958686"/>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -240,13 +242,14 @@
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        HNX-INDEX
+                                        VS-100
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    accusamus labore sustainable VHS.
+                                    <img src="http://chart.vietstock.vn/finance/FinanceMain/VS100-realtime-250x160-NoTitle.png?rnd=0.7771379344116217"/>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -254,13 +257,14 @@
                             <div class="panel-heading" role="tab" id="headingFour">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        HNX30-INDEX
+                                        VS-Large Cap
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    of them accusamus labore sustainable VHS.
+                                    <img src="http://chart.vietstock.vn/finance/FinanceMain/vS-Large-Cap-realtime-250x160-NoTitle.png?rnd=0.9142159833059357"/>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -268,17 +272,17 @@
                             <div class="panel-heading" role="tab" id="headingFive">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Upcome
+                                        VS-Mid Cap
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                 <div class="panel-body">
-                                    sustainable VHS.
+                                    <img src="http://chart.vietstock.vn/finance/FinanceMain/VS-Mid-Cap-realtime-250x160-NoTitle.png?rnd=0.22181926099482463"/>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
